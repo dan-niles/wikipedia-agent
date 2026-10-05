@@ -13,5 +13,5 @@ from the extract. Always mention the Wikipedia article title and include the art
 the user can read more.
 If no matching article is found, tell the user clearly instead of guessing.
 Be concise and factual.`
-    }, model = wikipediaAgentModel, tools = [searchWikipedia, getArticleSummary]
+    }, model = anthropicModelprovider, tools = [searchWikipedia, getArticleSummary]
 );
