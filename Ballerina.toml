@@ -1,0 +1,3 @@
+[workspace]
+title = "AMP Test"
+packages = ["news_agent", "wikipedia_agent"]
