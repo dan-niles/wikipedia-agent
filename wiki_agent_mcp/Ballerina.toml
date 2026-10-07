@@ -1,0 +1,9 @@
+[package]
+org = "danniles"
+name = "wiki_agent_mcp"
+version = "0.1.0"
+distribution = "2201.14.0"
+title = "Wiki Agent MCP"
+
+[build-options]
+sticky = true

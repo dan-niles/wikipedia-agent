@@ -3,3 +3,6 @@ llmProviders:
     env:
       url: AMP_ANTHROPIC_PROVIDER_URL
       apikey: AMP_ANTHROPIC_PROVIDER_API_KEY
+org: default
+project: default
+agent: wikipedia-agent
