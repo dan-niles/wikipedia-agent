@@ -5,3 +5,4 @@ final http:Client wikipediaActionClient = check new ("https://en.wikipedia.org/w
 
 final http:Client wikipediaRestClient = check new ("https://en.wikipedia.org/api/rest_v1");
 final anthropic:ModelProvider anthropicModelprovider = check new (ampAnthropicProviderAgentManagerKey, "claude-haiku-4-5", ampAnthropicProviderAgentManagerUrl + "/v1");
+final PixelgustMcpToolkit pixelgustMcp = check new (pixelgustMcpUrl, auth = {tokenUrl: agentIdTokenUrl, clientId: agentIdClientId, clientSecret: agentIdClientSecret, scopes: agentIdScopes, optionalParams: {"resource": pixelgustMcpUrl}});

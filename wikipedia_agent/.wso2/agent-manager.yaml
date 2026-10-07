@@ -6,3 +6,7 @@ llmProviders:
 org: default
 project: default
 agent: wikipedia-agent
+mcpServers:
+  - proxy: pixelgust
+    env:
+      url: PIXELGUST_MCP_URL
